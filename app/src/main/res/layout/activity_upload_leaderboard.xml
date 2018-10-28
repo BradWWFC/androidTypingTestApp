@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".gameEndLeaderboard"
+    android:gravity="center"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:id="@+id/YourScoreIs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/you_re_final_score_is"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/finalScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="finalScore"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/Leaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        tools:text="Leaderboard"/>
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/score3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/score4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/score5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+</LinearLayout>
